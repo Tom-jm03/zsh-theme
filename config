@@ -1,0 +1,26 @@
+[global_config]
+  title_transmit_fg_color = "#1e1e1e"
+  title_transmit_bg_color = "#1e1e1e"
+  title_receive_fg_color = "#1e1e1e"
+  title_receive_bg_color = "#1e1e1e"
+  title_inactive_fg_color = "#1e1e1e"
+  title_inactive_bg_color = "#1e1e1e"
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.9
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
